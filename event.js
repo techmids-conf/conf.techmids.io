@@ -5,10 +5,10 @@ export const EVENT = {
     address: 'Mailbox, Birmingham',
     startTime: 'TBC',
     endTime: 'TBC',
-    ticketLink: '',
-    onSale: false, //swap to true to embed ticket widget
+    ticketLink: 'https://ti.to/tech-events-birmingham/techmids-conf-2025',
+    onSale: true, //swap to true to embed ticket widget
     soldOut: false,
-    titoId: '',
+    titoId: 'tech-events-birmingham/techmids-conf-2025',
     CFPLink: "https://www.papercall.io/techmids-conf-2025",
     CFPOpen: true,
     capacity: 250,
