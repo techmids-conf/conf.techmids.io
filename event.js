@@ -39,7 +39,7 @@ export const sponsorTiers = {
         sponsors: [
              {
                 name: "Spinks",
-                image: "/sponsors/Spinks.svg",
+                image: "/sponsors/Spinks.png",
                 url: "https://www.wearespinks.com/"
             }
         ]
