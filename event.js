@@ -1,19 +1,19 @@
 import { OVERALL_END, OVERALL_START} from "schedule"
 
 export const EVENT = {
-    date: 'Coming Soon for 2026',
-    dateTbc: true,
+    date: 'November 27th 2026',
+    dateTbc: false,
     title: 'TechMids Conf',
     venue: 'Everyman Cinema',
     address: 'Mailbox, Birmingham',
     startTime: OVERALL_START,
     endTime: OVERALL_END,
-    ticketLink: 'https://ti.to/tech-events-birmingham/techmids-conf-2025',
-    onSale: false, //swap to true to embed ticket widget
+    ticketLink: 'https://ti.to/tech-events-birmingham/techmids-conf-2026',
+    onSale: true, //swap to true to embed ticket widget
     soldOut: false,
-    titoId: 'tech-events-birmingham/techmids-conf-2025',
-    CFPLink: "https://www.papercall.io/techmids-conf-2025",
-    CFPOpen: false,
+    titoId: 'tech-events-birmingham/techmids-conf-2026',
+    CFPLink: "https://www.papercall.io/techmids-conf-2026",
+    CFPOpen: true,
     speakersTBC: true,
     capacity: 250,
     tagline: "",
@@ -22,7 +22,7 @@ export const EVENT = {
 //  Marks what information is available on the website
 export const AVAILABLE_INFORMATION = {
     scheduleAvailable: false,
-    locationAvailable: false, 
+    locationAvailable: true, 
     speakersAvailable: false,
     sponsorsAvailable: false,
 }
