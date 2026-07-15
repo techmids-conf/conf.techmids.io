@@ -37,7 +37,7 @@ export function Header() {
             rel="noopener"
             target="_blank"
           >
-            Get your tickets now
+            Get your ticket now
           </ButtonLink>
             ) : null}
         </div>

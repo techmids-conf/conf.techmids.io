@@ -1,5 +1,6 @@
 import { ButtonCTA } from '@/components/ButtonCTA'
 import {EVENT} from "../../event";
+import { VenueInfo } from './VenueInfo';
 
 export function Hero() {
   return (
@@ -40,7 +41,7 @@ export function Hero() {
                   }}
               />
           </div>
-          <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-20">
+          <div className="mx-auto max-w-7xl px-6 pb-20 pt-10 sm:pb-20 lg:flex lg:px-8 lg:py-16">
               <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                   <div className="mt-24 sm:mt-32 lg:mt-16">
                   </div>
@@ -80,9 +81,13 @@ export function Hero() {
               </div>
           </div>
 
-          <div className="flex flex-col justify-center">
-              <div className="my-10 grid grid-cols-1 gap-10 mx-auto">
-                  <h1 className="font-display text-4xl font-bold tracking-tighter text-white sm:text-6xl">
+          <div className="flex justify-center mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+              <ButtonCTA/>
+          </div>
+
+          <div className="mb-12 flex flex-col justify-center">
+              <div className="my-10 mx-8 grid grid-cols-1 gap-10 mx-auto">
+                  <h1 className="font-display text-4xl font-bold tracking-tighter text-white sm:text-6xl text-center">
                       <span className="block xl:inline">Check out some of our events from prior years</span>
                   </h1>
               </div>
@@ -97,9 +102,9 @@ export function Hero() {
                   </div>
               </div>
           </div>
-          <div className="flex justify-center mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-              <ButtonCTA/>
-          </div>
+        <div className="my-4 grid gap-10 px-4 justify-center">
+            <VenueInfo/>
+        </div>
       </div>
   )
 }

@@ -4,6 +4,7 @@ export const EVENT = {
     date: 'November 27th 2026',
     dateTbc: false,
     title: 'TechMids Conf',
+    edition: 'TechMids Conf 2026',
     venue: 'Everyman Cinema',
     address: 'Mailbox, Birmingham',
     startTime: OVERALL_START,

@@ -33,6 +33,20 @@ module.exports = {
       },
       colors: {
         brand: {
+          DEFAULT: '#ffff00',
+          50: '#FFFF00',
+          100: '#FAF904',
+          200: '#F1F109',
+          300: '#E4E30F',
+          400: '#D2D214',
+          500: '#C7C717',
+          600: '#BDBD18',
+          700: '#B2B119',
+          800: '#A8A61A',
+          900: '#A09E1B',
+          950: '#8F8E1B'
+        },
+        btwbrand: {
           DEFAULT: '#23FFF3',
           50: '#DBFFFD',
           100: '#C6FFFC',
@@ -47,6 +61,7 @@ module.exports = {
           950: '#002624'
         },
         btw: {
+          black: '#000000',
           blue: '#171D29',
           cyan: '#23FFF3',
           'cyan-dark': '#009189',
