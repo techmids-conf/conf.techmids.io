@@ -21,6 +21,17 @@ export function Footer() {
           >
             Past Events
           </a>
+          <p
+            classname="mt-4 block text-center md:mt-0 md:text-left"
+          >
+            <span>Event organised by </span>
+            <a
+              href="https://techmids.org/"
+              className="underline"
+            >
+              TechMids
+            </a>
+          </p>
           <p className="mt-6 text-base text-slate-500 md:mt-0">
             Copyright &copy; {new Date().getFullYear()} Tech Mids conf. All rights reserved.
           </p>
