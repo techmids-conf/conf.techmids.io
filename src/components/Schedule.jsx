@@ -224,17 +224,17 @@ export function Schedule() {
 
     const parsedDate = moment(EVENT.date, 'Do MMMM YYYY').format('MM/DD/YYYY');
 
-    const buttonBaseClass = "px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500";
-    const activeClass = "bg-brand-800 text-white";
-    const inactiveClass = "bg-white text-brand-700 hover:bg-brand-50";
+    const buttonBaseClass = "px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500 shadow-md";
+    const activeClass = "bg-black text-brand";
+    const inactiveClass = "bg-white text-black hover:bg-brand-100";
 
     return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10">
             <div className="flex flex-col mx-auto">
                 <div className="flex flex-wrap items-center mb-4">
-                    <p className="font-display text-4xl font-medium text-brand-800 sm:text-7xl">Schedule</p>
+                    <h1 className="font-display text-4xl font-medium text-brand-800 sm:text-7xl" id="schedule">Schedule</h1>
                     <p className="w-full mt-4 font-display text-2xl text-brand-900">
-                        Your day will be composed of 30-40 minute sessions including plenty of time to chat, network and move between talks.
+                        Your day will be composed of 30-45 minute sessions including plenty of time to chat, network and move between talks.
                     </p>
                 </div>
 
