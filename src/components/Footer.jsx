@@ -22,7 +22,7 @@ export function Footer() {
             Past Events
           </a>
           <p
-            classname="mt-4 block text-center md:mt-0 md:text-left"
+            className="mt-4 block text-center md:mt-0 md:text-left"
           >
             <span>Event organised by </span>
             <a
