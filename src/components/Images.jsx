@@ -1,63 +1,83 @@
 const images = [
   {
-    name: 'DevOpsDays Audience',
-    source: '/gallery/audience-devopsdays.jpg',
+    "name": "1",
+    "source": "/gallery/2025/1.jpg"
   },
   {
-    name: 'DevOpsDays',
-    source: '/gallery/katie.jpg',
+    "name": "3",
+    "source": "/gallery/2025/3.jpg"
   },
   {
-    name: 'DevOpsDays small group at social',
-    source: '/gallery/purecraft-small-group-devopsdays.jpg',
+    "name": "26",
+    "source": "/gallery/2025/26.jpg"
   },
   {
-    name: 'Millenium Point',
-    source: '/gallery/millenium-point.jpg',
+    "name": "57",
+    "source": "/gallery/2025/57.jpg"
   },
   {
-    name: 'Millenium Point Leon Adato',
-    source: '/gallery/mp-leon-adato.jpg',
+    "name": "168",
+    "source": "/gallery/2025/168.jpg"
   },
   {
-    name: 'DevOpsDays attendee',
-    source: '/gallery/becky.jpg',
+    "name": "178",
+    "source": "/gallery/2025/178.jpg"
   },
   {
-    name: 'Anais',
-    source: '/gallery/anais.jpg',
+    "name": "183",
+    "source": "/gallery/2025/183.jpg"
   },
   {
-    name: 'audience',
-    source: '/gallery/audience.jpg',
+    "name": "207",
+    "source": "/gallery/2025/207.jpg"
   },
   {
-    name: 'chairs',
-    source: '/gallery/chairs.jpg',
-  },
-    {
-    name: 'crowd',
-    source: '/gallery/crowd.jpg',
-    },
-  {
-    name: 'open-spaces',
-    source: '/gallery/open-spaces.jpg',
-  },
-    {
-    name: 'screen',
-    source: '/gallery/screen.jpg',
-    },
-  {
-    name: 'SoC',
-    source: '/gallery/soc.jpg',
+    "name": "205",
+    "source": "/gallery/2025/205.jpg"
   },
   {
-    name: 'tech-mids-tee',
-    source: '/gallery/tech-mids-tee.jpg',
+    "name": "213",
+    "source": "/gallery/2025/213.jpg"
   },
   {
-    name: 'sponsor',
-    source: '/gallery/sponsor.jpg',
+    "name": "234",
+    "source": "/gallery/2025/234.jpg"
+  },
+  {
+    "name": "248",
+    "source": "/gallery/2025/248.jpg"
+  },
+  {
+    "name": "256",
+    "source": "/gallery/2025/256.jpg"
+  },
+  {
+    "name": "272",
+    "source": "/gallery/2025/272.jpg"
+  },
+  {
+    "name": "336",
+    "source": "/gallery/2025/336.jpg"
+  },
+  {
+    "name": "345",
+    "source": "/gallery/2025/345.jpg"
+  },
+  {
+    "name": "367",
+    "source": "/gallery/2025/367.jpg"
+  },
+  {
+    "name": "404",
+    "source": "/gallery/2025/404.jpg"
+  },
+  {
+    "name": "414",
+    "source": "/gallery/2025/414.jpg"
+  },
+  {
+    "name": "449",
+    "source": "/gallery/2025/449.jpg"
   }
 ]
 
