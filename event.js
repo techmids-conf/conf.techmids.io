@@ -12,7 +12,7 @@ export const EVENT = {
     onSale: true, //swap to true to embed ticket widget
     soldOut: false,
     titoId: 'tech-events-birmingham/techmids-conf-2026',
-    CFPLink: "https://www.papercall.io/techmids-conf-2026",
+    CFPLink: "https://forms.gle/mhQxq1BuJFiqzxS6A",
     CFPOpen: true,
     speakersTBC: true,
     capacity: 250,
