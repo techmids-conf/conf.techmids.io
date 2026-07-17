@@ -5,7 +5,7 @@ import {EVENT} from "../../event";
 
 export function Header() {
   return (
-    <header className="relative z-50 pb-11 lg:pt-11 bg-btw-blue">
+    <header className="relative z-50 pb-11 lg:pt-11 bg-techmids-black">
       <Container className="flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
         <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
           <a href="/">
