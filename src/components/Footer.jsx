@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="py-16">
       <Container className="flex flex-col items-center justify-between md:flex-row">
         <a href="/">
-          <Logo className="h-12 w-auto text-slate-900" />
+          <Logo className="h-20 w-auto text-slate-900" />
         </a>
         <div>
           <a
