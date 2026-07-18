@@ -3,7 +3,7 @@ import { Logo } from '@/components/Logo'
 
 export function Footer() {
   return (
-    <footer className="py-16">
+    <footer className="py-16 bg-techmids-black text-white">
       <Container className="flex flex-col items-center justify-between md:flex-row">
         <a href="/">
           <Logo className="h-20 w-auto text-slate-900" />
@@ -32,7 +32,7 @@ export function Footer() {
               TechMids
             </a>
           </p>
-          <p className="mt-6 text-base text-slate-500 md:mt-0">
+          <p className="mt-6 text-base text-slate-300 md:mt-0">
             Copyright &copy; {new Date().getFullYear()} Tech Mids conf. All rights reserved.
           </p>
         </div>
