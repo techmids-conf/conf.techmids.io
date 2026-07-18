@@ -94,16 +94,16 @@ export function Speakers({sharing = false}) {
                       <div className="group relative h-[10rem] sm:h-[17.5rem]] md:h-[17.5rem] lg:h-[17.5rem] transform overflow-hidden rounded-4xl">
                         <div
                             className={clsx(
-                                'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
+                                'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border-2 transition duration-300 group-hover:scale-95 xl:right-6',
                                 [
-                                  'border-btw-cyan-dark',
-                                  'border-btw-cyan-dark',
-                                  'border-btw-cyan-dark',
+                                  'border-brand-600',
+                                  'border-brand-600',
+                                  'border-brand-600',
                                 ][speakerIndex % 3]
                             )}
                         />
                         <div
-                            className="absolute inset-0 bg-btw-cyan-dark"
+                            className="absolute inset-0 bg-brand-100"
                             style={{
                               clipPath: `url(#${id}-${speakerIndex % 3})`,
                             }}
@@ -130,11 +130,11 @@ export function Speakers({sharing = false}) {
               ))}
               
               {EVENT.speakersTBC && <div className="flex flex-col">
-                  <div className="group relative h-[10rem] sm:h-[17.5rem]] md:h-[17.5rem] lg:h-[17.5rem] transform overflow-hidden rounded-4xl border-2 border-dashed border-btw-cyan-dark flex items-center justify-center">
+                  <div className="group relative h-[10rem] sm:h-[17.5rem]] md:h-[17.5rem] lg:h-[17.5rem] transform overflow-hidden rounded-4xl border-2 border-dashed border-brand-600 flex items-center justify-center">
                     <svg
                       aria-hidden="true"
                       viewBox="0 0 100 100"
-                      className="w-3/4 h-3/4 sm:w-4/5 sm:h-4/5 text-btw-cyan-dark"
+                      className="w-3/4 h-3/4 sm:w-4/5 sm:h-4/5 text-techmids-gold"
                     >
                       <path d="M50 15v70M15 50h70" stroke="currentColor" strokeWidth="10" strokeLinecap="round" />
                     </svg>

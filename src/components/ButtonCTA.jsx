@@ -1,6 +1,7 @@
 import { ButtonLink } from '@/components/Button'
 import {EVENT, AVAILABLE_INFORMATION} from "../../event";
 import Head from "next/head";
+import { VenueInfo } from './VenueInfo';
 
 export function ButtonCTA() {
     return (
@@ -8,8 +9,8 @@ export function ButtonCTA() {
         <Head>
           <script src="https://js.tito.io/v2/with/inline" async></script>
         </Head>
-        <div className="my-10 grid gap-10 px-4">
-          <div className="my-10 grid grid-cols-1 gap-10">
+        <div className="my-4 grid gap-10 px-4">
+          <div className="grid grid-cols-1 gap-10">
             {EVENT.onSale ? (
               <>
                 <div className="my-10 grid grid-cols-1 gap-10">
@@ -19,6 +20,8 @@ export function ButtonCTA() {
                     </span>
                   </h1>
                 </div>
+                <VenueInfo/>
+
                 <tito-widget event={EVENT.titoId}></tito-widget>
 
                 <ButtonLink
@@ -27,7 +30,7 @@ export function ButtonCTA() {
                   target="_blank"
                   className="w-full"
                 >
-                  Get your ticket now
+                  Get your ticket for {EVENT.edition} now
                 </ButtonLink>
               </>
             ) : null}
@@ -44,6 +47,16 @@ export function ButtonCTA() {
           </div>
           {EVENT.CFPOpen && (
             <div className="my-10 grid grid-cols-1 gap-10">
+              <div className="my-10 grid grid-cols-1 gap-10">
+                <h1 className="font-display text-4xl font-bold tracking-tighter text-white sm:text-7xl">
+                  <span className="block xl:inline">
+                    Ready to take the stage?
+                  </span>
+                </h1>
+              </div>
+              <p className="mt-0.5 text-2xl font-semibold tracking-tight text-brand-700">
+                Our Call for Proposals is now open! Apply now to present a talk at {EVENT.edition}
+              </p>
               <ButtonLink
                 href={EVENT.CFPLink}
                 rel="noopener"
@@ -54,22 +67,7 @@ export function ButtonCTA() {
               </ButtonLink>
             </div>
           )}
-          {AVAILABLE_INFORMATION.locationAvailable  && (
-            <dl className="grid grid-cols-2 gap-y-6 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
-            {[
-              ['Spaces', `Limited to ${EVENT.capacity} seats`],
-              ['Venue', EVENT.venue],
-              ['Location', EVENT.address],
-            ].map(([name, value]) => (
-              <div key={name}>
-                <dt className="font-mono text-sm text-brand-500">{name}</dt>
-                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-brand-700">
-                  {value}
-                </dd>
-              </div>
-            ))}
-          </dl>
-          )}
+
         </div>
       </>
     )

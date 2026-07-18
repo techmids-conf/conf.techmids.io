@@ -33,6 +33,20 @@ module.exports = {
       },
       colors: {
         brand: {
+          DEFAULT: '#ffff00',
+          50: '#FFFDF0',  //Passes AA/AAA as bg with text #555555 or darker
+          100: '#FFF9C4',
+          200: '#FFF176',
+          300: '#FFEE58',
+          400: '#FFEB3B',
+          500: '#FFFF00', // DEFAULT
+          600: '#E6E600',
+          700: '#B3B300',
+          800: '#808000', // Passes AA when Large
+          900: '#4D4D00', // Passes AA/AAA Normal text on white
+          950: '#1A1A00',
+        },
+        btwbrand: {
           DEFAULT: '#23FFF3',
           50: '#DBFFFD',
           100: '#C6FFFC',
@@ -46,7 +60,14 @@ module.exports = {
           900: '#00423E',
           950: '#002624'
         },
+        techmids: {
+          black: '#000000',
+          yellow: '#FFFF00',
+          mustard: '#B2B119',
+          gold: '#D4A017'
+        },
         btw: {
+          black: '#000000',
           blue: '#171D29',
           cyan: '#23FFF3',
           'cyan-dark': '#009189',

@@ -3,10 +3,10 @@ import { Logo } from '@/components/Logo'
 
 export function Footer() {
   return (
-    <footer className="py-16">
+    <footer className="py-16 bg-techmids-black text-white">
       <Container className="flex flex-col items-center justify-between md:flex-row">
         <a href="/">
-          <Logo className="h-12 w-auto text-slate-900" />
+          <Logo className="h-20 w-auto text-slate-900" />
         </a>
         <div>
           <a
@@ -21,7 +21,18 @@ export function Footer() {
           >
             Past Events
           </a>
-          <p className="mt-6 text-base text-slate-500 md:mt-0">
+          <p
+            className="mt-4 block text-center md:mt-0 md:text-left"
+          >
+            <span>Event organised by </span>
+            <a
+              href="https://techmids.org/"
+              className="underline"
+            >
+              TechMids
+            </a>
+          </p>
+          <p className="mt-6 text-base text-slate-300 md:mt-0">
             Copyright &copy; {new Date().getFullYear()} Tech Mids conf. All rights reserved.
           </p>
         </div>
