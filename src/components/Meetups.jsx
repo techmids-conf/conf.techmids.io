@@ -53,6 +53,10 @@ const meetups = [
     {
       name: 'Hack the Midlands',
         image: '/meetups/htm.png',
+    },
+    {
+      name: 'Women in Tech',
+        image: '/meetups/women-in-tech.png',
     }
 ]
 
